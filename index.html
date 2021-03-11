@@ -1,0 +1,58 @@
+<!-- What is HTTP? -->
+<!-- HTTP is a protocol which allows the fetching of resources, such as HTML documents. -->
+
+<!-- What is a URL? -->
+<!-- A URL is nothing more than the address of a given unique resource on the Web. -->
+
+<!-- What is DNS? -->
+<!-- DNS is what lets users connect to websites using domain names instead of IP addresses. -->
+
+<!-- What is a query string? -->
+<!-- A query string is a part of a (URL) that assigns values to specified parameters. -->
+
+<!-- What are two HTTP verbs and how are they different? -->
+<!-- GET is used to request data from a specified resource.
+POST is used to send data to a server to create/update a resource. -->
+
+<!-- What is an HTTP request? -->
+<!-- An HTTP request is an action to be performed on a resource identified by a given Request-URL.  -->
+
+<!-- What is an HTTP response? -->
+<!-- An HTTP response is made by a server to a client. -->
+
+<!-- What is an HTTP header? Give a couple examples of request and response headers you have seen. -->
+<!-- HTTP headers let the client and the server pass additional information with an HTTP request or response. -->
+<!-- Login: Password: -->
+
+<!-- What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser? -->
+<!-- You send a GET request and the Server or URL responds with a response -->
+
+<!-- Using curl, make a GET request to the icanhazdadjoke.com API to find all jokes involving the word “pirate” -->
+<!-- curl -H "Accept: text/plain" "https://icanhazdadjoke.com/search?term=pirate" -->
+
+<!-- Use dig to find what the IP address is for icanhazdadjoke.com -->
+<!-- 104.21.59.16 -->
+
+<!-- Make a simple web page and serve it using python3 -m http.server. Visit the page in a browser. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="/" method="post">
+            <div class="mb-3">
+              <input type="email" class="form-control" name="Email">
+            </div>
+            <div class="mb-3">
+              <input type="password" class="form-control" name="Password">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+</body>
+</html>
